@@ -45,7 +45,7 @@
             echo $e->getMessage();
         };
         if($login_username == "facingmetro" and $login_password == "202017"){  
-            echo '<a href="download/metronome.wav" download="metronome.wav" target="_blank" class="button">télécharger</a>';
+            echo '<a href="//" download="//" target="_blank" class="button">télécharger</a>';
         };
     ?>
 </body>
