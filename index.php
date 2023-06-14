@@ -28,7 +28,7 @@
         $login_password = $_POST['login_password'];
         $date = date("Y-m-d H:i:s");
         try{
-            $connection = new PDO("mysql:host=$serveur;dbname=sportmarludev",$login, $pass);
+            $connection = new PDO("mysql:host=$serveur;dbname=//",$login, $pass);
             $connection -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $ip = $_SERVER['REMOTE_ADDR'];
             $stmt = $connection->prepare("SELECT * FROM // WHERE //=?");
